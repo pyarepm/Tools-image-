@@ -1,0 +1,1 @@
+function gen(){let u=uEl.value,r=rEl.value,b=bEl.value,p=pEl.value;localStorage.u=u;localStorage.r=r;let url=`https://cdn.jsdelivr.net/gh/${u}/${r}@${b}/${p}`;o.value=url;img.src=url;}function copy(){o.select();document.execCommand('copy');alert('Copied');}const uEl=u,rEl=r,bEl=b,pEl=p;o.value='';u.value=localStorage.u||u.value;r.value=localStorage.r||r.value;
